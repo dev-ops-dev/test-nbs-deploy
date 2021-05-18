@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'hkgnbswebprd01'
+      label '4CE9371LQD'
     }
 
   }
@@ -50,5 +50,8 @@ pipeline {
       }
     }
 
+  }
+  environment {
+    DEV = 'DEV'
   }
 }
